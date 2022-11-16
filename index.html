@@ -5,8 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beth Wayman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+
+
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
     
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> BETH WAYMAN</h1>
+            <button class="btn">
+                Hire Me
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">About Me</h1>
+        <div id="pic">
+            <img src="img/img6.jpg" alt="">
+            <div id="intro">
+                <h2>Beth Wayman</h2>
+                <p>I was born in The Crimea (Ukraine). I was adopted 
+                    by the most amazing family in 2002, along with three 
+                    other boys. Since that time I have been searching to 
+                    find my place in this world. Growing up I was extreamly 
+                    creative and athletic. I loved sewing, painting, playing 
+                    outside with my brothers. I also signed up for all the sports, 
+                    volleyball, basketball, tennis, cross country, and track and field. 
+                    However, nothing captured my heart quite like softball did. 
+                    I spent 12 years dedicating my mind, body and heart to the one thing that 
+                    I loved the most. Softball not only taught me dedication, 
+                    but also leadership, teamwork, time management, and perseverence. 
+                    I devoted countless hours to be the best player I could be. 
+                    However, graduation came too soon and it was time to focus 
+                    on other priorities. I have worked several jobs over the years 
+                    trying to find something that would speak to me the way softball 
+                    had all those years. Nothing seemed to inspire me. It wasn't until 
+                    after I had my son that i realized i need to find a new passion that 
+                    would challenge me daily and spark my creativity. I started dedicating all
+                    my free time to learing web development. All of the sudden I feel the excitment 
+                    that i felt all those years of playing softball come rushing back. I had found my new passion.
+                    and with the same determination, creatiity, and persistance, I know that I can persevere. 
+                 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">Portfolio</h1>
+        <div class="gallery">
+            <img src="Portfolio/img7.jpg" alt="">
+            <img src="Portfolio/img7.jpg" alt="">
+            <img src="Portfolio/img7.jpg" alt="">
+            <img src="Portfolio/img7.jpg" alt="">
+            <img src="Portfolio/img7.jpg" alt="">
+            <img src="Portfolio/img7.jpg" alt="">
+
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">Services</h1>
+        <div class="row">
+            <div class="box">
+                <img src="Services/png.jpg" alt="">
+                <h1 class="headings">HTML</h1>
+                <p>Words words words words words.</p>
+            </div>
+            <div class="box">
+                <img src="Services/png.jpg" alt="">
+                <h1 class="headings">CSS</h1>
+                <p>Words words words words words.</p>
+            </div>
+            <div class="box">
+                <img src="Services/png.jpg" alt="">
+                <h1 class="headings">JavaScript</h1>
+                <p>Words words words words words.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="submit" value="SEND" id="send">
+        </form>
+    </section>
+
 </body>
 </html>
